@@ -17,6 +17,9 @@ const fetchCaseScenarios = async () => {
   return data.text; // Adjust based on the response format from the LLM
 };
 
+
+
+
 // Fetch Conversation Details from Cohere API
 const fetchScenarioDetails = async (scenario) => {
   const response = await fetch('/api/cohere', {
