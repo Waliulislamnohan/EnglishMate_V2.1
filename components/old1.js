@@ -7,7 +7,7 @@ method: 'POST',
 headers: {
 'Content-Type': 'application/json',
 },
-body: JSON.stringify({ prompt: "Suggest a list of common English conversation scenarios." }),
+body: JSON.stringify({ prompt: "Suggest a list of common English conversation scenarios or english conversation case." }),
 });
 
 const data = await response.json();
